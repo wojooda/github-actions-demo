@@ -19,8 +19,6 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
-
       - name: Run Python script
         run: python test.py # Change it to your Python file name
 
